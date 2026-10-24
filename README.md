@@ -87,4 +87,10 @@ pyproject.toml / uv.lock  依存パッケージとその固定版
 AIE_MODEL=gemini-3.5-flash uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+質問を続けて、前の質問と回答を会話履歴として渡すには `--chat` を使います。`/quit` で終了します。
+
+```bash
+uv run python -m app.ask --chat
+```
+
 無料枠には1分あたり・1日あたりのリクエスト上限があります。上限は [Gemini API のレート制限のページ](https://ai.google.dev/gemini-api/docs/rate-limits) で確認してください。
