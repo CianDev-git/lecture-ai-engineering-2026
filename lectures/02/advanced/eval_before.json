@@ -1,0 +1,1236 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 136,
+    "format_rate": 0.07352941176470588,
+    "content_rate": 0.03676470588235294,
+    "both_rate": 0.03676470588235294,
+    "seconds": 819.4
+  },
+  "rows": [
+    {
+      "question": "AI Engineeringについて教えてください",
+      "raw": "{\"answer\": \"AI Engineering は、AI アプリケーションやシステムを設計・構築・評価・運用する技術領域で、モデルの選択、データ・ツールとの接続、評価・改善のサイクルを回すことに重心があります。学習済みの基盤モデルを部品として使い、大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデルを指します。LLMがテキストを扱う最小単位（単語や文字の断片）を扱えるため、API の料金やレート制限、コンテキストウィンドウの大きさはトークン数で数えることが多く、日本語は英語より1 文字あたりのトークン数が多くなりやすいです。LLM が 1 回の呼び出しで扱える入力と出力の合計トークン数の上限を制限し、会話履歴やツールの結果もこの中に収める必要があるため、何をモデルに渡すかの設計が重要です",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIエンジニアリングとはどのようなものなんですか？",
+      "raw": "{\"answer\": \"AIエンジニアリングとは、AI アプリケーションやシステムを設計・構築・評価・運用する技術領域です。本講座では、学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域を指します。本講座では、学習支援エージェントを題材に、回をまたいでこのサイクルを回すことを目指しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "改善サイクルについて教えてください",
+      "raw": "{\"answer\": \"学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心がある。作る→測る→直すを繰り返す開発の進め方。AI アプリは出力が確率的に揺れるため、感覚ではなく評価データや指標で良し悪しを判断し、その結果をもとにプロンプト・データ・モデル・ツールを改善する。本講座では学習支援エージェントを題材に、回をまたいでこのサイクルを回す。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "評価と改善のサイクルとはどのようなものですか？",
+      "raw": "{\"answer\": \"学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。作る→測る→直すを繰り返す開発の進め方。AI アプリは出力が確率的に揺れるため、感覚ではなく評価データや指標で良し悪しを判断し、その結果をもとにプロンプト・データ・モデル・ツールを改善する。本講座では学習支援エージェントを題材に、回をまたいでこのサイクルを回す。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "大規模言語モデルについて教えてください",
+      "raw": "{\"answer\": \"大規模言語モデル（LLM）は、テキストを最小単位（トークン）で学習し、指示（プロンプト）を変えるだけで文章やタスクを生成・処理するAIモデルです。学習には事前学習と追加学習のサイクルがあり、大量のテキストでモデルを強化し、入力に続くトークンを予測することで出力を生成します。また、モデルは1回の呼び出しで扱える入力と出力の合計トークン数の上限（コンテキストウィンドウ）を制限し、入力文（役割、制約、出力形式など）を指定することで、モデルの振る舞いを制御できます。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMって結局何？",
+      "raw": "{\"answer\": \"LLM（Large Language Model）は、テキストを扱う最小単位（単語や文字の断片）を学習し、入力文に対して出力を生成するモデルです。質問応答、要約、コード生成など多くのタスクを指示（プロンプト）を変えるだけでこなせる技術領域です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "tokenについて教えてください",
+      "raw": "{\"answer\": \"トークン数は、API の料金やレート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。日本語は英語より1 文字あたりのトークン数が多くなりやすい。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMにおけるトークンとは何ですか？",
+      "raw": "{\"answer\": \"トークンは、LLM（大規模言語モデル）がテキストを扱う最小単位であり、API の料金やレート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。日本語は英語より 1 文字あたりのトークン数が多くなりやすい。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コンテキスト長について教えてください",
+      "raw": "{\"answer\": \"トークン数は、API の料金、レート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。日本語は英語より 1 文字あたりのトークン数が多くなりやすい。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コンテキストウィンドウとは何を指しますか？",
+      "raw": "{\"answer\": \"モデルがテキストを扱う最小単位である単語や文字の断片に分割される。API の料金、レート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。日本語は英語より 1 文字あたりのトークン数が多くなりやすい。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "promptについて教えてください",
+      "raw": "{\"answer\": \"Pydantic AI の Agent のプロンプト（Instruction）は、モデルの役割、制約、出力形式、例、およびモデルの振る舞いを指定する入力文です。Pydantic AI では関数の docstring と型ヒントから自動で作られるが、モデルはこれを読んでツールを使うか、どの引数で呼ぶかを決めるので、書き方次第で挙動が大きく変わる。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "プロンプトとはどのようなものですか？",
+      "raw": "{\"answer\": \"プロンプトとは、モデルに指示を出すための入力文です。本講座では、モデルの振る舞い（役割、口調、守るべきルールなど）を指定する入力文として使われます。また、利用者の質問とは別に、モデルの振る舞いを指定する入力文として使われます。Pydantic AI では Agent の instructions 引数で与えることが可能です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "指示文について教えてください",
+      "raw": "{\"answer\": \"指示文は、モデルが出力する文脈や出力形式を明確にするために、質問だけでなく、役割、制約、出力形式、例、およびモデルの振る舞い（役割、口調、守るべきルールなど）を指定する入力です。Pydantic AI では Agent の instructions 引数で与えることが可能です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "システムプロンプトについて教えてください。",
+      "raw": "{\"answer\": \"システムプロンプトは、モデルの振る舞い（役割、口調、守るべきルールなど）を指定する入力文であり、Pydantic AI では Agent の instructions 引数で与えることで、モデルの出力を方向づけられる。また、次のトークンを選ぶときのランダムさを調整する設定値（temperature）や、LLMが事実と異なる内容や存在しない情報を生成してしまう現象を抑制するための設定値（repetition_penalty）もシステムプロンプトに含まれる。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "温度パラメータについて教えてください",
+      "raw": "{\"answer\": \"温度パラメータは、LLMが出力の確率分布を制御する重要な設定値です。低い値（0〜0.1）は安定した確率分布を維持し、高い値（0.7〜1.0）は多様性を高め、より創造的な回答を生成する傾向があります。本講座では、学習支援エージェントの回をまたいでこのサイクルを回すため、温度パラメータはモデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心があります。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMのtemperatureとは何ですか？",
+      "raw": "{\"answer\": \"温度（temperature）は、LLMが出力の確率分布を調整するパラメータです。低い値は安定した出力を、高い値は多様性や創造性を高めることができます。ただし、本講座では温度設定は「学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域」という観点から、FAQ 1 の定義に該当します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "幻覚について教えてください",
+      "raw": "{\"answer\": \"幻覚とは、脳が情報を処理し、自己の認識を誤って生成する現象です。学習済みの基盤モデル（LLM）は、入力文を「事実」として解釈し、その解釈を出力として生成する場合があります。しかし、モデルが学習した知識やパターンに基づいて生成される幻覚は、モデルの知識や学習履歴に依存するため、外部の知識や最新情報（ツールやデータ）を参照して修正されることは一般的ではありません。本講座では、モデルが学習した知識に基づいて生成される幻覚を「モデルによる幻覚」として扱うことがありますが、実際の幻覚は外部の知識や最新情報に基づき修正されるため、本講座では「確認が必要」として回答します。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIのハルシネーションとはどのような現象ですか？",
+      "raw": "{\"answer\": \"学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Application Programming Interfaceについて教えてください",
+      "raw": "{\"answer\": \"Application Programming Interface (API) は、プログラムが外部のサービスやツールを呼び出すための標準化された通信プロトコルとデータ形式です。本講座では、Gemini API を Python から呼び出す例として挙げ、API キー（Codespaces secret）を環境変数として読み込む仕組み、そして MCP サーバー（MCP Server）を定義して外部ツール（用語集の検索など）をモデルに渡す仕組みを説明しています。API は、モデルの出力を型やスキーマに沿って受け取る仕組み（Pydantic AI の output_type 指定）や、プログラムから別のサービス機能を呼び出す窓口（MCP サーバー）として機能します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "APIの仕組みを教えて",
+      "raw": "{\"answer\": \"API は、ユーザーが指定したリクエスト（質問）を、モデルに渡すことで、モデルがその入力文に基づいて出力を生成・返す仕組みです。モデルは、入力文（質問、役割、制約など）を分析し、その入力と出力のペア（入力・出力）を学習・記憶し、次に同じ入力に対して同じ出力を生成します。このプロセスは「モデル＋ループ＋ツール」の構造で、モデルがツールを呼び出して実行し、その結果をモデルに戻すことで、1 つの質問に対して複数の出力を生成する仕組みです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "API keyについて教えてください",
+      "raw": "{\"answer\": \"Gemini API キーは、Codespaces secret に登録し、環境変数 GEMINI_API_KEY として読み込む必要があります。API を呼び出す人を識別するためには、コードに直接書かない、コミットしない、チャットに貼らないことを強く推奨します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "APIキーとはどのようなものですか？",
+      "raw": "{\"answer\": \"API キーは、本講座では Codespaces secret に登録し、環境変数 GEMINI_API_KEY として読み込むために使用される秘密の文字列です。漏れると他人に利用枠を使われるため、コードに直接書かない、コミットしない、チャットに貼らない。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "environment variableについて教えてください",
+      "raw": "{\"answer\": \"Gemini API の環境変数として読み込む方法：`export GEMINI_API_KEY=your_api_key`\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "プログラミングにおける環境変数について説明してください。",
+      "raw": "{\"answer\": \"環境変数（Environment Variables）は、Python のプログラムを起動する際に、OS の実行環境に設定された値を直接読み込む方法です。本講座では、Gemini API を Python から呼び出す際、`GEMINI_API_KEY` という環境変数を使用し、この値をプログラム内で読み込んで API キーとして利用します。また、`AIE_MODEL` という環境変数を使用して、異なるモデル（例：gemini-3.5-flash-lite）を指定して学習データを渡すことも可能です。これらの環境変数は、コードに直接書かないと漏れるため、コミットしない、チャットに貼らないなどのセキュリティ対策として推奨されています。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "rate limitについて教えてください",
+      "raw": "{\"answer\": \"API の料金、レート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。API を呼び出す人を識別するための秘密の文字列は、コミットしない、チャットに貼らない。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "APIのレート制限とは何ですか？",
+      "raw": "{\"answer\": \"API のレート制限は、モデルが 1 回の呼び出しで処理できる入力と出力の合計トークン数の上限を指します。超えると HTTP 429 などのエラーが返されます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Codespacesについて教えてください",
+      "raw": "{\"answer\": \"Codespaces は GitHub のクラウド開発環境で、ブラウザから VS Code を開くことですぐに使える開発環境です。個人アカウントには毎月の無料枠があり、使わないときは停止しないと枠を消費し続けるため、設定どおりの環境をすぐに使えるように設計されています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "GitHub Codespacesとはどのようなサービスですか？",
+      "raw": "{\"answer\": \"GitHub Codespaces は、ブラウザから VS Code を開くことで、個人アカウントの無料枠を継続的に利用するためのクラウド開発環境です。本講座では、講座 repo を fork して作業・提出する際に、自分の fork 上で作業ブランチから main への PR として提出する仕組み（GitHub の AI コーディング支援）を基に、Codespaces を利用して環境を構築・管理する技術領域です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Dev Containerについて教えてください",
+      "raw": "{\"answer\": \"Dev Container は、開発環境をコンテナとして定義する仕組みです。devcontainer/devcontainer.json にPythonのバージョンや拡張機能、起動時のコマンドを書いておくと、誰が Codespaces を開いても同じ環境になる。GitHub のアカウント設定に登録しておく秘密の値。指定した repo の Codespaces を起動すると環境変数として渡される。他人の repo を自分のアカウントに丸ごとコピーすること。本講座では講座 repo を fork し、自分の fork 上で作業・提出する。作業の流れを分けるための仕組み。main を壊さずに変更を試し、まとまったら PR で main に取り込む。あるブランチの変更を別のブランチへ取り込むよう依頼する仕組み。差分の確認、コメント、自動テストの結果表示ができる。GitHub の AI コーディング支援。エディタでのコード補完、チャットでの質問、エージェントモードでの複数ファイル編集などができる。書き",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "devcontainerについて解説して",
+      "raw": "{\"answer\": \"devcontainer は、Python のバージョンや拡張機能、起動時のコマンドを記述した JSON ファイル（devcontainer/devcontainer.json）を参照することで、誰が Codespaces を開いても同じ環境になる仕組みです。このファイルに Python のバージョンや拡張機能、起動時のコマンドを書いておくと、Codespaces の起動時に同じ環境が確保されます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Codespacesのシークレットについて教えてください",
+      "raw": "{\"answer\": \"Codespaces のシークレットは、GitHub の Codespaces 機能で、プロジェクトのコードをコンテナとして定義し、環境変数として渡すために使用されます。本講座では、Codespaces secret を登録して、環境変数 GEMINI_API_KEY として読み込む方法が推奨されています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Codespaces secretについて教えてください。",
+      "raw": "{\"answer\": \"Codespaces secret は、GitHub の Codespaces 環境変数として設定し、環境変数 GEMINI_API_KEY として読み込む方法で、API キーのような秘密情報や環境ごとに変わる設定をコードから切り離すために使用します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "フォークについて教えてください",
+      "raw": "{\"answer\": \"講座では、自分の fork を作成し、その fork 上で作業・提出を行うことを推奨しています。他人の repo を自分のアカウントに丸ごとコピーすること自体は推奨されません。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "GitHubにおけるforkとは何ですか？",
+      "raw": "{\"answer\": \"GitHub の fork は、自分のアカウントに作成したリポジトリ（repo）をコピーし、そのリポジトリを自分のアカウントに丸ごとコピーすること。本講座では講座 repo を fork し、自分の fork 上で作業・提出する。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "branchについて教えてください",
+      "raw": "{\"answer\": \"GitHub のブランチ管理機能です。学習を進める際に、自分の fork の主 branch（main）から作業を進めるため、他のブランチ（例：branch01, branch02 など）を管理し、作業を分ける仕組みです。また、他のブランチの変更を自分の fork の main に取り込む仕組み（PR）も提供しています。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Gitのブランチとはどのようなものですか？",
+      "raw": "{\"answer\": \"GitHub のブランチとは、プロジェクトの作業を分けるための仕組みです。主には「main」ブランチと「branch」ブランチの2つがあります。「main」は現在の主要な開発ブランチで、変更をまとめるために作成されます。「branch」は特定の目的やバージョンを切り替えるために作成されます。本講座では、各回の演習・宿題は自分の fork 内で作業ブランチから main への PR として行うため、ブランチの管理はプロジェクトの進捗管理に不可欠です。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "PRについて教えてください",
+      "raw": "{\"answer\": \"PR（Pull Request）は、本講座では「自分の fork 内で作業ブランチから main に取り込む」仕組みで、作業の流れを分けるための仕組みです。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "プルリクエストとは何ですか？",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Copilotについて教えてください",
+      "raw": "{\"answer\": \"Copilot は Pydantic AI の Copilot Chat と Claude Desktop のチャットボタンの拡張機能であり、エディタ（VS Code、Cursor など）でコード補完やチャット機能を提供します。無料版では補完の回数和チャット利用量に制限があり、モデルの出力を型やJSONスキーマに沿った形で受け取る仕組み（output_type）を指定して後処理をしやすい設計です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "GitHub Copilotについて説明してください。",
+      "raw": "{\"answer\": \"GitHub Copilot は、GitHub のクラウド開発環境（Codespaces）で、ブラウザから VS Code を開くことで、個人アカウントの登録時に登録した秘密の API キー（GEMINI_API_KEY）を環境変数として読み込むことができる、Python のエージェント開発フレームワークである Pydantic AI を利用して、コードの補完やチャットでの質問、複数ファイルの編集など、AI エージェントモードでコードを自動生成・修正するツールです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "インライン補完について教えてください",
+      "raw": "{\"answer\": \"GitHub の Copilot Free は、エディタでのコード補完とチャットでの質問、エージェントモードでの複数ファイル編集などができる機能です。ただし、無料枠は補完の回数とチャットの利用量に上限があります。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コード補完とはどのような機能ですか？",
+      "raw": "{\"answer\": \"GitHub の AI コーディング支援機能です。エディタでのコード補完、チャットでの質問、エージェントモードでの複数ファイル編集などができる。無料の Copilot Free は補完の回数とチャットの利用量に上限がある。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Coding Agentについて教えてください",
+      "raw": "{\"answer\": \"AIE2026 第 3 回の宿題の発展レベルで扱う。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コーディングエージェントとは何ですか？",
+      "raw": "{\"answer\": \"コードエージェントとは、大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル（LLM）を、プログラムから別のサービスの機能を呼び出す窓口として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "pre-trainingについて教えてください",
+      "raw": "{\"answer\": \"pre-training は、学習済みの基盤モデル（主に LLM）を、大量の汎用テキストで学習させる最初の段階です。言語の知識や一般的な常識の多くはここで身につくため、事前学習済みの重みを固定したまま、重みの更新分を小さな行列の積で表し、その小さな行列だけを学習する手法（PEFT）を適用します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIモデルの事前学習とは何ですか？",
+      "raw": "{\"answer\": \"事前学習済みの重みを固定したまま、重みの更新分を2つの小さな行列の積で表す手法の総称。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "fine-tuningについて教えてください",
+      "raw": "{\"answer\": \"fine-tuning は、学習済みの基盤モデル（LLM）を特定のタスクや形式に追加学習させることで、より高い精度や特定の振る舞いを身につける技術です。本講座では、LoRA（低ランク行列）や PEFT（パラメータエフェクト）などの手法を用いて、モデルの重みを小さく学習させることで、メモリ使用量や計算量を減らしながら学習を進める方法が紹介されています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ファインチューニングとはどのような学習方法ですか？",
+      "raw": "{\"answer\": \"ファインチューニングは、学習済みの基盤モデル（主に LLM）を、特定のタスクや形式に合ったデータで追加学習させること。出力の形式や口調、特定ドメインの振る舞いを身につけさせるのに向く。最新の事実を覚えさせる用途には、ツールや RAG で外部データを参照させるほうが向くことが多い。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "SFTについて教えてください",
+      "raw": "{\"answer\": \"学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心がある。作る→測る→直すを繰り返す開発の進め方。AI アプリは出力が確率的に揺れるため、感覚ではなく評価データや指標で良し悪しを判断し、その結果をもとにプロンプト・データ・モデル・ツールを改善する。本講座では学習支援エージェントを題材に、回をまたいでこのサイクルを回す。大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル。質問応答、要約、コード生成など多くのタスクを、指示（プロンプト）を変えるだけでこなせる。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "教師ありファインチューニング（SFT）について説明してください。",
+      "raw": "{\"answer\": \"教師ありファインチューニング（SFT）は、学習済みの基盤モデル（主に LLM）を、特定のタスクや形式に合ったデータで追加学習させることで、出力の形式や口調、特定ドメインの振る舞いを身につけさせる手法です。本講座では、学習データにだけ過度に適合し、未知の入力に対する性能が落ちる状態（過学習）を避けるために、公開されたモデルやデータセットを共有・ダウンロードできるプラットフォーム（オープンウェイト）を基盤として、LoRA などの PEFT 手法で、ごく一部や追加した小さなパラメータだけを学習する手法を総称して説明しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Parameter-Efficient Fine-Tuningについて教えてください",
+      "raw": "{\"answer\": \"Parameter-Efficient Fine-Tuning (PEFT) は、モデルの全パラメータを学習するのではなく、ごく一部や追加した小さなパラメータだけを学習する手法です。必要なGPUメモリと保存容量を大きく減らせるため、学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。本講座の第2回演習ではLoRAを扱う。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "PEFTとは何ですか？",
+      "raw": "{\"answer\": \"PEFT（Parameter-Efficient Fine-Tuning）は、モデルの全パラメータを学習するのではなく、ごく一部や追加した小さなパラメータだけを学習する手法の総称です。必要なGPUメモリと保存容量を大きく減らせるため、学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Low-Rank Adaptationについて教えてください",
+      "raw": "{\"answer\": \"LoRA（Low-Rank Adaptation）は、モデルの全パラメータを学習するのではなく、ごく一部や追加した小さなパラメータだけを学習する手法です。必要なGPUメモリと保存容量を大きく減らせるため、学習するパラメータとメモリも増えるハイパーパラメータを調整することで、表現力を向上させつつ、学習の安定性と効率性を確保できます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LoRAとはどのような手法ですか？",
+      "raw": "{\"answer\": \"LoRA（Low-Rank Adaptation）は、モデルの重みを 4 ビットなどの量子化してメモリを節約し、LoRA で学習する手法の総称。学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "rankについて教えてください",
+      "raw": "{\"answer\": \"LLM（大規模言語モデル）は、入力トークン数（文脈や知識の範囲）を制限し、1回の呼び出しで扱える入力と出力の合計トークン数の上限（コンテキストウィンドウ）を有します。この上限を超えると、HTTP 429 などのエラーが返されます。また、日本語は英語より1文字あたりのトークン数が多くなりやすいため、日本語のモデルは英語のモデルよりも高いトークン数で動作することが多いです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LoRAにおけるランク（r）とは何ですか？",
+      "raw": "{\"answer\": \"LoRAにおけるランク（r）は、低ランク行列の大きさを決定するハイパーパラメータで、学習するパラメータとメモリを大きく減らすために使用されます。大きいほど表現力が上がるが、学習するパラメータとメモリも増えるため、学習するパラメータとメモリを大きく減らすために使用されます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Quantized LoRAについて教えてください",
+      "raw": "{\"answer\": \"Quantized LoRA は、モデルの重みを 16 ビットなどの量子化してメモリを節約し、LoRA で学習する手法です。学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "QLoRAについて教えてください。",
+      "raw": "{\"answer\": \"LoRA（Low-Rank Adaptation）は、モデルの全パラメータを学習するのではなく、ごく一部や追加した小さなパラメータだけを学習する手法です。必要なGPUメモリと保存容量を大きく減らせるため、学習するパラメータとメモリも増えるハイパーパラメータを調整することで、より大きなモデルを小さなGPUで扱える技術です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "quantizationについて教えてください",
+      "raw": "{\"answer\": \"量化は、モデルの重みをより小さなビット数（例：16ビットから4ビット）で表し、メモリ使用量や計算量を減らす技術です。精度は少し下がることがある。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIモデルの量子化とは何ですか？",
+      "raw": "{\"answer\": \"モデルの重みを 16 ビットから 4 ビット などの量子化してメモリを節約したうえで、LoRA で学習する手法。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "learning rateについて教えてください",
+      "raw": "{\"answer\": \"学習率（learning rate）は、モデルの学習速度を制御する重要なパラメータです。学習率を大きくすると、モデルが学習する速度が速くなり、学習が速くなりますが、過学習（過学習）や過学習のリスクが高まります。学習率を小さくすると、学習がゆっくり進み、過学習のリスクが低くなりますが、学習速度が遅くなります。学習率の調整は、モデルの性能と学習の安定性をバランスよく調整する必要があります。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "機械学習における学習率とはどのような値ですか？",
+      "raw": "{\"answer\": \"学習率（learning rate）は、モデルが学習する速度を制御するパラメータで、モデルが一度に学習すべきパラメータの割合を決定します。学習率が小さければ、モデルは学習をゆっくりに行い、過学習を防ぎますが、学習速度が遅いため、学習が速く進みます。学習率が大きい場合は、学習が速く進みますが、学習が不安定になり、過学習や過学習のリスクが高まります。学習率は、モデルの精度や学習速度を調整するために、学習の安定性を保つために調整されます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "epochについて教えてください",
+      "raw": "{\"answer\": \"1 回の学習周期を 1 個のエポック（epoch）と数える。過学習しやすい状態は、学習データに過度に適合し、未知の入力に対する性能が落ちる状態です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "エポックとは何を表す単位ですか？",
+      "raw": "{\"answer\": \"1 回の学習周期を 1 回学習と数える。回数を増やしすぎると過学習しやすい。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "overfittingについて教えてください",
+      "raw": "{\"answer\": \"過学習は、学習データに過度に適合し、未知の入力に対する性能が落ちる状態です。学習に使わない検証データで性能を測って気づく。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "機械学習における過学習とは何ですか？",
+      "raw": "{\"answer\": \"学習に使わない検証データで性能を測って気づく\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Hugging Faceについて教えてください",
+      "raw": "{\"answer\": \"Hugging Face は、LLM（大規模言語モデル）の学習、評価、およびモデルの公開・共有を支援するオープンソースプラットフォームです。本講座では、Pydantic AI の Agent を題材に、Hugging Face のモデル（例：GPT-3.5、GPT-4、Claude 3.5）を学習し、その出力をツールとして利用する実装を学びます。また、Hugging Face の MCP サーバー（MCP Server）や、Hugging Face Spaces（スペース）などの機能も本講座の学習対象となります。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Hugging Face Hubとはどのようなプラットフォームですか？",
+      "raw": "{\"answer\": \"Hugging Face Hub は、Hugging Face のオープンソースモデルやツールを公開・共有するためのプラットフォームです。モデルは公開されたデータセットやツールを共有・ダウンロードできるプラットフォームとして利用されます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "エージェントについて教えてください",
+      "raw": "{\"answer\": \"エージェントは、学習済みの基盤モデル（LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。作る→測る→直すを繰り返す開発の進め方。AI アプリは出力が確率的に揺れるため、感覚ではなく評価データや指標で良し悪しを判断し、その結果をもとにプロンプト・データ・モデル・ツールを改善する。本講座では学習支援エージェントを題材に、回をまたいでこのサイクルを回す。大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル。質問応答、要約、コード生成など多くのタスクを、指示（プロンプト）を変えるだけでこなせる。LLM がテキストを扱う最小単位。単語や文字の断片に分割される。API の料金、レート制限、",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIエージェントとは何ですか？",
+      "raw": "{\"answer\": \"AIエージェントとは、学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。本講座では、学習支援エージェントを題材に、回をまたいでこのサイクルを回すことを目指しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "agent loopについて教えてください",
+      "raw": "{\"answer\": \"LLMが学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心がある。作る→測る→直すを繰り返す開発の進め方。AIアプリは出力が確率的に揺れるため、感覚ではなく評価データや指標で良し悪しを判断し、その結果をもとにプロンプト・データ・モデル・ツールを改善する。本講座では学習支援エージェントを題材に、回をまたいでこのサイクルを回す。大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル。質問応答、要約、コード生成など多くのタスクを、指示（プロンプト）を変えるだけでこなせる。LLM",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "エージェントループとはどのような仕組みですか？",
+      "raw": "{\"answer\": \"エージェントループとは、モデルがツールを呼び出して結果を受け取って、その結果をモデルに戻すという「モデル＋ループ＋ツール」の構造を繰り返す処理を指します。1つの質問でLLMを複数回呼ぶため、時間・料金・レート制限への影響が大きい。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ツール呼び出しについて教えてください",
+      "raw": "{\"answer\": \"Pydantic AI の MCPツールでは、関数の docstring や型ヒントから自動で引数定義と出力スキーマが作成されます。モデルはこれを読み、必要なときに引数を決めて呼び出しを依頼し、実行はプログラム側が行います。ただし、モデルの出力を型やJSONスキーマに沿った形で受け取る仕組み（output_type を指定する）も重要です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMにおけるTool useやFunction callingとは何ですか？",
+      "raw": "{\"answer\": \"LLMにおける Tool use と Function calling は、モデルが外部のサービスやツールを呼び出して出力を生成する仕組みです。この仕組みは、モデルがツールの名前・説明・引数のスキーマを認識し、必要なときに引数を決めて呼び出しを依頼するものです。Pydantic AI では関数の docstring と型ヒントから自動で作られる関数ツールとして使われます。モデルはこれを読んでツールを使うか、どの引数で呼ぶかを決めるので、書き方次第で挙動が大きく変わる。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "docstringについて教えてください",
+      "raw": "{\"answer\": \"Pydantic AI の docstring は、関数の定義時に自動生成される出力形式や型ヒントの説明文です。モデルはこれを読み、必要なときに引数を決めることで、ツールを呼び出すか、どの引数で呼ぶかを判断します。書き方次第で挙動が大きく変わるため、理解してから採用してください。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIエージェントにおけるツールの説明文とは何ですか？",
+      "raw": "{\"answer\": \"モデルの出力を、決めた型やJSONスキーマに沿った形で受け取る仕組み。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "structured outputについて教えてください",
+      "raw": "{\"answer\": \"確認が必要\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMの構造化出力について説明してください。",
+      "raw": "{\"answer\": \"LLMの構造化出力は、出力形式や出力の形式を指定するパラメータ（出力タイプ）を指定することで、プログラムが後処理しやすくなる仕組みです。Pydantic AI では output_type に Pydantic モデルを指定することで、出力を型やスキーマに沿った形で受け取る仕組みを構築します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "agent harnessについて教えてください",
+      "raw": "{\"answer\": \"LLMがツールを呼び出し、その結果を見てさらに次の行動を決める、というループで目的を達成するシステム。基本構造は「モデル＋ループ＋ツール」。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIエージェントにおけるハーネスとは何ですか？",
+      "raw": "{\"answer\": \"AIエージェントにおけるハーネスとは、プログラムから別のサービスの機能を呼び出すための窓口です。本講座ではGemini APIをPythonから呼び出してLLMを使う例で説明されています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Pi coding agentについて教えてください",
+      "raw": "{\"answer\": \"Pi coding agent は、Python で構築されたオープンソースのコーディングエージェントです。最小限の機能とシステムプロンプトで構成され、利用者が拡張して使う設計です。2026年10月に1.0が公開されたもので、npmのパッケージ名は @earendil-works/pi-coding-agent です。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コーディングエージェントのPiとはどのようなものですか？",
+      "raw": "{\"answer\": \"Pi は、Claude Code や Copilot のエージェントモードで、コードの編集や補完、ファイル操作などを自動化するオープンソースのコーディングエージェントです。中身は LLM＋ループ＋ツールという AI エージェントの構造そのものであり、中身は LLM＋ループ＋ツールという AI エージェントの構造そのもの。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "pydantic-aiについて教えてください",
+      "raw": "{\"answer\": \"Pydantic AI は、学習済みの基盤モデル（LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。学習支援エージェントを題材に、回をまたいでこのサイクルを回す。大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル。LLMがテキストを扱う最小単位。API の料金、レート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。LLM が 1 回の呼び出しで扱える入力と出力の合計トークン数の上限。LLM に渡す入力文。利用者の質問とは別に、モデルの振る舞い（役割、口調、守るべきルールなど）を指定する入力。次のトークンを選ぶときのランダムさを調整する設定値。LLM が事実と異なる",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Pydantic AIって何",
+      "raw": "{\"answer\": \"Pydantic AI は、学習済みの基盤モデル（LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。本講座では、学習支援エージェントを題材に、回をまたいでこのサイクルを回すことを目指しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ADKについて教えてください",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "GoogleのADKについて説明してください。",
+      "raw": "{\"answer\": \"Google の ADK は、Google の AI 開発フレームワーク「Google AI Studio」の縮小版です。本講座では、Google の ADK を「Google の AI Studio」に相当する概念として扱いますが、ADK の具体的な機能や特徴は本講座の講義で詳細に説明されていません。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPについて教えてください",
+      "raw": "{\"answer\": \"MCP（Model Context Protocol）は、モデル（LLM）と外部ツールやリソース、プロンプトを接続するためのオープンな標準プロトコルです。本講座では、MCPサーバーとして公開されたツール（例：用語集の検索）をモデルに渡して、モデルの指示でツールを呼び出す仕組みを説明しています。MCP サーバーは、クライアント（エディタやアプリ）から接続し、公開されたツールをモデルに渡して、モデルの指示でツールを実行し結果を返す側です。MCP の利点は、クライアントとサーバーがやり取りする経路（stdio でのサブプロセス接続や Streamable HTTP での遠隔接続）を共通の方法で使えるため、同じ機械の中で使うことができます。また、複数の MCP サーバーを使うと、同じ名前のツールを区別するために「サーバー名_ツール名」のように接頭",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPとは何ですか？",
+      "raw": "{\"answer\": \"MCP（Model Context Protocol）は、AI アプリケーションやツールを公開して、クライアント（ブラウザ、アプリ、IDE など）から呼び出して実行する標準プロトコルです。本講座では、MCP サーバーを定義し、クライアントがツールを呼び出すための仕組みを説明しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "guardrailについて教えてください",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIエージェントのガードレールとはどのようなものですか？",
+      "raw": "{\"answer\": \"エージェントのガードレールとは、AIエージェントが望ましくない行動や出力をしないように設ける制約や検査です。指示文でのルール、ツールの権限を絞る、出力をチェックする、重要な操作の前に人の確認を挟む、などの方法がある。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "HITLについて教えてください",
+      "raw": "{\"answer\": \"HITL は「Human-in-the-loop」の概念を基に、ユーザーがモデルの出力をレビューし、確認・修正を行うことで、モデルの信頼性を高め、誤った情報を排除する仕組みです。本講座では、学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域を指します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "hitlとは何ですか？",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "テスト用モデルについて教えてください",
+      "raw": "{\"answer\": \"テスト用モデルは、API キーや利用枠を使わずに、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできる偽モデルです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Pydantic AIのTestModelとはどのようなものですか？",
+      "raw": "{\"answer\": \"Pydantic AI の TestModel は、実際の LLM を呼び出して動作確認するためのダミーのモデルです。API キーや利用枠を使わずに、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "3レベルについて教えてください",
+      "raw": "{\"answer\": \"3 段階の学習レベルは、基礎（講義内容の確認）、実装（自分でコードを書く）、発展（調査や試行）の 3 つの段階で構成されています。どれか 1 つに取り組めばその回の宿題は完了します。原則として採点はしません。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIE2026の宿題の3レベルとは何ですか？",
+      "raw": "{\"answer\": \"基礎、実装、発展\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "解答ファイルについて教えてください",
+      "raw": "{\"answer\": \"学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIE2026におけるanswer.mdとは何のためのファイルですか？",
+      "raw": "{\"answer\": \"AIE2026におけるanswer.mdは、学習済みの基盤モデル（LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域における「実装（自分でコードを書く）」の段階における、取り組んだレベル・やったこと・結果・気づきを記入する作業ブランチから提出するためのファイルです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "開始タグについて教えてください",
+      "raw": "{\"answer\": \"lecture01-start\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "lecNN-startタグとは何ですか？",
+      "raw": "{\"answer\": \"lecture01\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "デフォルトモデルについて教えてください",
+      "raw": "{\"answer\": \"Gemini-3.5-flash-lite\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIE2026の既定モデルとは何ですか？",
+      "raw": "{\"answer\": \"gemini-3.5-flash-lite\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "external toolについて教えてください",
+      "raw": "{\"answer\": \"MCP（Model Context Protocol）は、外部ツールやリソース、プロンプトを公開する側のプログラムとして、クライアントの要求に応じてツールを実行し結果を返すオープンな標準プロトコルです。本講座では用語集の検索を MCP サーバーに接続し、モデルの指示でツールを呼び出す側（エージェントのプログラムやエディタ）に適用しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIエージェントにおける外部ツールとは何ですか？",
+      "raw": "{\"answer\": \"AIエージェントにおける外部ツールとは、プログラム（エージェント）のコードから呼び出せる、または外部のサービス（API、ツール、データソース）をモデルに渡して実行する機能です。本講座では、Gemini API を Python から呼び出して LLM を利用する例として挙げられています。また、MCP（Model Context Protocol）という標準プロトコルにより、複数のサーバー（Claude Desktop、Cursor、Pydantic AI など）を接続して、外部のツールやリソースをモデルに渡す仕組みも定義されています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCP serverについて教えてください",
+      "raw": "{\"answer\": \"MCPサーバーは、クライアント（エディタやアプリ）から公開されたツールやリソース、プロンプトをモデルに渡して、指示に従って実行する仕組みです。MCPサーバーは、ツール（やリソース、プロンプト）を公開する側のプログラムで、公開するのはツールの名前・説明文・引数のスキーマで、クライアントの要求に応じてツールを実行し結果を返す。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPサーバーとはどのようなものですか？",
+      "raw": "{\"answer\": \"MCPサーバーは、MCP（Model Context Protocol）という標準プロトコルを介して、複数のエージェントやエディタ（MCPクライアント）が共通のサーバーを通じてツールやリソース、プロンプトを呼び出すためのプラットフォームです。本講座では app/mcp_servers.json を設定ファイルとして使用し、Claude Desktop、Cursor、Pydantic AI などのクライアントが同じ mcpServers 形式でサーバー名を指定することで、同じツールを複数回呼び出すことができます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCP clientについて教えてください",
+      "raw": "{\"answer\": \"MCP client と MCP server は、同じサーバーをクライアントから呼び出してツールを実行する仕組みです。クライアントはサーバーに接続し、サーバーが提供するツール（リソース、プロンプト、関数など）をモデルに渡して、指示に従って実行します。MCP サーバーは公開されたツールをモデルに渡す側で、クライアントは MCP サーバーからツールを呼び出して実行します。MCP サーバーは Claude Desktop、Cursor、Pydantic AI など、クライアントが使用できるエディタやアプリをクライアントに接続します。MCP サーバーは、クライアントからツールを呼び出す際に、サーバーが提供するツール名や説明、引数のスキーマをモデルに渡すことで、クライアントがツールを実行する際に必要な情報を取得できます。MCP サーバーは、クライアントからツールを呼び出す際に、サーバーが提供するツール名や説明、引数のスキーマ",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPクライアントについて説明してください。",
+      "raw": "{\"answer\": \"MCPクライアントとは、MCPサーバーから公開されたツールやリソース、プロンプトをモデルに渡して、その指示に従って実行するプログラムです。本講座では MCP サーバー（app/mcp_server.py）をクライアントとして使用し、サーバーからツール名や説明、引数のスキーマを渡して、モデルの指示に従ってツールを実行する仕組みです。クライアントは MCP サーバーとやり取りする経路（stdio でのサブプロセス接続や Streamable HTTP での接続）を管理し、サーバーから公開されたツールを実行して結果を返すことで、エージェントのプログラム（Pydantic AI の MCPToolset）やエディタ（Copilot Chat、Claude Desktop、Cursor など）がクライアントになることを実現します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "stdioについて教えてください",
+      "raw": "{\"answer\": \"stdio は、クライアントがサーバーをサブプロセスとして起動し、標準入出力でメッセージを交換する仕組みです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPのトランスポートとは何ですか？",
+      "raw": "{\"answer\": \"MCP（Model Context Protocol）のトランスポートとは、MCP サーバーと MCP クライアントがやり取りする通信経路を指します。MCP サーバーは、クライアントから公開されたツールやリソース、プロンプトなどをモデルに渡す側であり、クライアントは、そのサーバーからツールを実行し結果を返す側です。このやり取りは、stdio（標準入力・標準出力）で直接通信する方式（クライアントがサーバーをサブプロセスとして起動し、標準入出力でメッセージを交換する）や Streamable HTTP などの通信方式で実現されます。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "mcpServersについて教えてください",
+      "raw": "{\"answer\": \"mcpServers は、設定ファイル（例：app/mcp_servers.json）に記述された、Claude Desktop、Cursor、Pydantic AI、uvx mcp-server-fetch、fetch、filesystem、GitHub、GitLab、GitHub Copilot、VS Code、Copilot Chat、Cursor、Pi、Claude Code、Pi のような、MCPサーバーの起動コマンド（stdio）または接続先 URL（HTTP）を記述する設定ファイルです。複数のサーバーを使うときは、同じ名前のツールを区別するために「サーバー名_ツール名」のように接頭辞を付けること。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "mcpServers設定とはどのようなものですか？",
+      "raw": "{\"answer\": \"mcpServers 設定ファイルは、MCP サーバーの起動コマンド（stdio）または接続先 URL（HTTP）を記述し、複数の MCP サーバーを管理するための設定ファイルです。本講座では app/mcp_servers.json というファイルに設定を数行足すだけでツールが増えるのが特徴です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ツール名のプレフィックスについて教えてください",
+      "raw": "{\"answer\": \"本講座では MCP サーバーの起動時に「サーバー名_ツール名」のように接頭辞を付けることで、同じ名前のツールを区別し、呼び分けの精度とトークン数を調整する。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPにおけるツールの名前空間とは何ですか？",
+      "raw": "{\"answer\": \"MCPにおけるツールの名前空間は、サーバー名_ツール名のように接頭辞を付けることで区別されます。本講座では app/agent.py は設定ファイルのサーバー名を自動で付ける（例：glossary_search_glossary）。Pydantic AI の load_mcp_toolset も同じ接頭辞を付けることで、ツールが増えるほどモデルに渡す説明文も増え、呼び分けの精度とトークン数に影響します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "mcp-server-fetchについて教えてください",
+      "raw": "{\"answer\": \"mcp-server-fetch は、Python の uvx で起動する既存のサーバーで、MCP サーバーとして公開されたツール（fetch、filesystem、GitHub など）をモデルに渡して、指示に従って呼び出す既存のサーバーです。本講座では「設定ファイルに書くだけで外部ツールが増える」例として利用します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPのfetchサーバーとはどのようなものですか？",
+      "raw": "{\"answer\": \"MCP の fetch サーバーは、Webページの取得、ファイル操作、データベース、他社の API など、エージェントのプログラムの外にある機能をツールとして使うこと。本講座では「設定ファイルに書くだけで外部ツールが増える」例として使う。モデルが選んだ URL に実際にアクセスするので、どこへ何を送るかは利用者が把握しておく。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "強化学習について教えてください",
+      "raw": "{\"answer\": \"強化学習は、学習済みの基盤モデル（LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心があります。作る→測る→直すを繰り返す開発の進め方です。AI アプリは出力が確率的に揺れるため、感覚ではなく評価データや指標で良し悪しを判断し、その結果をもとにプロンプト・データ・モデル・ツールを改善する。本講座では学習支援エージェントを題材に、回をまたいでこのサイクルを回す。大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル。質問応答、要約、コード生成など多くのタスクを、指示（プロンプト",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "BigBirdについて教えてください",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ロジスティック回帰とは何ですか",
+      "raw": "{\"answer\": \"ロジスティック回帰とは、二値変数（0 または 1）を分類する関数です。学習データからモデルを学習し、新しい入力データに対して二値分類を行うことで、確率を計算し、目標となる二値分類結果（正解か誤解か）を判断します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "スケール則について平易な言葉で説明してください",
+      "raw": "{\"answer\": \"学習モデルは、入力トークン数が多くなるにつれて、出力トークン数も増える傾向があります。これは「出力トークン数」と「入力トークン数」の比率（出力/入力）が、学習過程で変化し、学習効率や安定性を影響する現象です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Omnicampusとは何ですか",
+      "raw": "{\"answer\": \"Omnicampus は、学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。本講座では、このサイクルを回すことをテーマに、学習支援エージェントを題材に説明されています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ミュトスの開発元はどこですか？",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "第三回の宿題の提出期限はいつですか？",
+      "raw": "{\"answer\": \"2026年10月1日\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "どうすればGitHubにログインできますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Omniverseについて簡単に説明してください",
+      "raw": "{\"answer\": \"Omniverse は、OpenAI の「GPT-4o」をベースに構築された、AI アプリケーションの設計・構築・評価・運用を支援する技術分野です。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心があります。大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデル。質問応答、要約、コード生成など多くのタスクを、指示（プロンプト）を変えるだけでこなせる。LLM がテキストを扱う最小単位。API の料金、レート制限、コンテキストウィンドウの大きさは、多くの場合トークン数で数える。日本語は英語より1 文字あたりのトークン数が多くなりやすい。LLM が 1 回の呼び出しで扱える入力と出力の合計トークン数の上限。会話履歴",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "オフラインデータとは何ですか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "RT-1について教えてください",
+      "raw": "{\"answer\": \"RT-1 は、学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心があります。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "逆強化学習とはどのようなものですか",
+      "raw": "{\"answer\": \"逆強化学習とは、学習したモデルが「学習した知識」を「学習していない知識」に適用し、その結果を評価して学習する手法です。学習した知識は、学習していない知識よりも高い確率で正解となるため、学習していない知識を正解として評価し、その結果を学習した知識に適用することで、学習した知識を強化する仕組みです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "GANの仕組みを教えてください",
+      "raw": "{\"answer\": \"GAN（生成 adversarial network）は、生成と反発（Adversarial Game）の対立を繰り返す学習プロセスです。モデルは「生成器」として入力を受け、出力を生成し、次に「反発器」としてその出力を生成し、生成器と反発器が互いに攻撃し合うことで、生成がより確実になるように学習します。この対立を「反発」と呼び、生成器と反発器が互いに攻撃し合うことで、生成がより確実になるように学習します。\"",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Anthropic",
+      "raw": "{\"answer\": \"確認が必要\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "GPT5.5とは",
+      "raw": "{\"answer\": \"GPT5.5 は、GPT4 を 1 つのモデルとして扱った上で、より多くのトークン（約 1.3 倍）を扱える、かつ、より多くのタスク（約 1.5 倍）をこなせる、より強力な大規模言語モデルです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ロボティクスの概要",
+      "raw": "{\"answer\": \"ロボット工学は、機械や人工知能（AI）を制御・操作する分野です。本講座では、LLM（大規模言語モデル）を基盤とした「学習支援エージェント」を題材に、回をまたいで「作る→測る→直す」開発のサイクルを回すことを学びます。具体的な応用は、質問応答、要約、コード生成、検索、ファイル操作、外部 API の呼び出しなど、多くのタスクを自動化・効率化します。また、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心があり、大量のテキストで学習し、入力に続くトークンを予測することで文章を生成するモデルを扱うことで、AI アプリケーションの設計・構築・評価・運用を学ぶことができます。",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "RLVFについて教えてください",
+      "raw": "{\"answer\": \"RLVF（Reinforcement Learning with Virtual Agents）は、学習済みの基盤モデル（LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域です。本講座では、学習支援エージェントを題材に、回をまたいでこのサイクルを回すことを重点にしています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "特徴量エンジニアリングとは？",
+      "raw": "{\"answer\": \"学習済みの基盤モデル（主に LLM）を部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域。モデルを一から作ることより、モデルの選択、データやツールとの接続、評価と改善のサイクルを回すことに重心がある。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "RAGの仕組みを教えて",
+      "raw": "{\"answer\": \"RAG（Retrieval-Augmented Generation）は、LLMが学習した知識を外部のデータソースから抽出し、その情報をモデルに渡すことで、知識ベースを拡張し、回答の信頼性と精度を高める技術です。本講座では、学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域を指します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "推論の仕組みってどういうこと？",
+      "raw": "{\"answer\": \"推論の仕組みとは、モデルが文脈を分析し、過去の知識やルールに基づいて、入力文から推論結果を生成するプロセスです。本講座では、LLMが学習済みの基盤モデルを部品として使い、実際に役立つアプリケーションやシステムを設計・構築・評価・運用する技術領域を指します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}
