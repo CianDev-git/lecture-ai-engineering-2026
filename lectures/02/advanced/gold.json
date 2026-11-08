@@ -1,0 +1,940 @@
+{
+  "AI Engineeringについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "基盤モデル",
+      "アプリケーション"
+    ]
+  },
+  "AIエンジニアリングとはどのようなものなんですか？": {
+    "needs_review": false,
+    "must_include": [
+      "基盤モデル",
+      "アプリケーション"
+    ]
+  },
+  "改善サイクルについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "作る",
+      "測る",
+      "直す"
+    ]
+  },
+  "評価と改善のサイクルとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "作る",
+      "測る",
+      "直す"
+    ]
+  },
+  "大規模言語モデルについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "トークン",
+      "文章を生成"
+    ]
+  },
+  "LLMって結局何？": {
+    "needs_review": false,
+    "must_include": [
+      "トークン",
+      "文章を生成"
+    ]
+  },
+  "tokenについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "最小単位",
+      "トークン数"
+    ]
+  },
+  "LLMにおけるトークンとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "最小単位",
+      "トークン数"
+    ]
+  },
+  "コンテキスト長について教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "トークン数",
+      "上限"
+    ]
+  },
+  "コンテキストウィンドウとは何を指しますか？": {
+    "needs_review": false,
+    "must_include": [
+      "トークン数",
+      "上限"
+    ]
+  },
+  "promptについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "入力文",
+      "出力"
+    ]
+  },
+  "プロンプトとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "入力文",
+      "出力"
+    ]
+  },
+  "指示文について教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "振る舞い",
+      "instructions"
+    ]
+  },
+  "システムプロンプトについて教えてください。": {
+    "needs_review": false,
+    "must_include": [
+      "振る舞い",
+      "instructions"
+    ]
+  },
+  "温度パラメータについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ランダム",
+      "安定"
+    ]
+  },
+  "LLMのtemperatureとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ランダム",
+      "安定"
+    ]
+  },
+  "幻覚について教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "事実と異なる",
+      "生成"
+    ]
+  },
+  "AIのハルシネーションとはどのような現象ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "事実と異なる",
+      "生成"
+    ]
+  },
+  "Application Programming Interfaceについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "プログラム",
+      "サービス"
+    ]
+  },
+  "APIの仕組みを教えて": {
+    "needs_review": false,
+    "must_include": [
+      "プログラム",
+      "サービス"
+    ]
+  },
+  "API keyについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "秘密",
+      "GEMINI_API_KEY"
+    ]
+  },
+  "APIキーとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "秘密",
+      "GEMINI_API_KEY"
+    ]
+  },
+  "environment variableについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "プログラムの外側",
+      "設定"
+    ]
+  },
+  "プログラミングにおける環境変数について説明してください。": {
+    "needs_review": false,
+    "must_include": [
+      "プログラムの外側",
+      "設定"
+    ]
+  },
+  "rate limitについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "上限",
+      "429"
+    ]
+  },
+  "APIのレート制限とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "上限",
+      "429"
+    ]
+  },
+  "Codespacesについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "クラウド",
+      "開発環境"
+    ]
+  },
+  "GitHub Codespacesとはどのようなサービスですか？": {
+    "needs_review": false,
+    "must_include": [
+      "クラウド",
+      "開発環境"
+    ]
+  },
+  "Dev Containerについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "コンテナ",
+      "devcontainer.json"
+    ]
+  },
+  "devcontainerについて解説して": {
+    "needs_review": false,
+    "must_include": [
+      "コンテナ",
+      "devcontainer.json"
+    ]
+  },
+  "Codespacesのシークレットについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "秘密",
+      "環境変数"
+    ]
+  },
+  "Codespaces secretについて教えてください。": {
+    "needs_review": false,
+    "must_include": [
+      "秘密",
+      "環境変数"
+    ]
+  },
+  "フォークについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "コピー",
+      "repo"
+    ]
+  },
+  "GitHubにおけるforkとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "コピー",
+      "repo"
+    ]
+  },
+  "branchについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "main",
+      "PR"
+    ]
+  },
+  "Gitのブランチとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "main",
+      "PR"
+    ]
+  },
+  "PRについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ブランチ",
+      "main"
+    ]
+  },
+  "プルリクエストとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ブランチ",
+      "main"
+    ]
+  },
+  "Copilotについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "コード補完",
+      "チャット"
+    ]
+  },
+  "GitHub Copilotについて説明してください。": {
+    "needs_review": false,
+    "must_include": [
+      "コード補完",
+      "チャット"
+    ]
+  },
+  "インライン補完について教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "コード",
+      "提案"
+    ]
+  },
+  "コード補完とはどのような機能ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "コード",
+      "提案"
+    ]
+  },
+  "Coding Agentについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ファイル",
+      "コマンド"
+    ]
+  },
+  "コーディングエージェントとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ファイル",
+      "コマンド"
+    ]
+  },
+  "pre-trainingについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "次のトークン",
+      "学習"
+    ]
+  },
+  "AIモデルの事前学習とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "次のトークン",
+      "学習"
+    ]
+  },
+  "fine-tuningについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "追加学習",
+      "データ"
+    ]
+  },
+  "ファインチューニングとはどのような学習方法ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "追加学習",
+      "データ"
+    ]
+  },
+  "SFTについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "入力",
+      "出力"
+    ]
+  },
+  "教師ありファインチューニング（SFT）について説明してください。": {
+    "needs_review": false,
+    "must_include": [
+      "入力",
+      "出力"
+    ]
+  },
+  "Parameter-Efficient Fine-Tuningについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "パラメータ",
+      "LoRA"
+    ]
+  },
+  "PEFTとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "パラメータ",
+      "LoRA"
+    ]
+  },
+  "Low-Rank Adaptationについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "低ランク",
+      "行列"
+    ]
+  },
+  "LoRAとはどのような手法ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "低ランク",
+      "行列"
+    ]
+  },
+  "rankについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ランク",
+      "メモリ"
+    ]
+  },
+  "LoRAにおけるランク（r）とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ランク",
+      "メモリ"
+    ]
+  },
+  "Quantized LoRAについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "4ビット",
+      "LoRA"
+    ]
+  },
+  "QLoRAについて教えてください。": {
+    "needs_review": false,
+    "must_include": [
+      "4ビット",
+      "LoRA"
+    ]
+  },
+  "quantizationについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ビット",
+      "メモリ"
+    ]
+  },
+  "AIモデルの量子化とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ビット",
+      "メモリ"
+    ]
+  },
+  "learning rateについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "パラメータ",
+      "更新"
+    ]
+  },
+  "機械学習における学習率とはどのような値ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "パラメータ",
+      "更新"
+    ]
+  },
+  "epochについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "学習データ",
+      "1周"
+    ]
+  },
+  "エポックとは何を表す単位ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "学習データ",
+      "1周"
+    ]
+  },
+  "overfittingについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "学習データ",
+      "性能"
+    ]
+  },
+  "機械学習における過学習とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "学習データ",
+      "性能"
+    ]
+  },
+  "Hugging Faceについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "モデル",
+      "データセット"
+    ]
+  },
+  "Hugging Face Hubとはどのようなプラットフォームですか？": {
+    "needs_review": false,
+    "must_include": [
+      "モデル",
+      "データセット"
+    ]
+  },
+  "エージェントについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "モデル",
+      "ループ",
+      "ツール"
+    ]
+  },
+  "AIエージェントとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "モデル",
+      "ループ",
+      "ツール"
+    ]
+  },
+  "agent loopについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ツール",
+      "最終回答"
+    ]
+  },
+  "エージェントループとはどのような仕組みですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ツール",
+      "最終回答"
+    ]
+  },
+  "ツール呼び出しについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "関数",
+      "引数"
+    ]
+  },
+  "LLMにおけるTool useやFunction callingとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "関数",
+      "引数"
+    ]
+  },
+  "docstringについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "docstring",
+      "型ヒント"
+    ]
+  },
+  "AIエージェントにおけるツールの説明文とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "docstring",
+      "型ヒント"
+    ]
+  },
+  "structured outputについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "JSONスキーマ",
+      "Pydantic"
+    ]
+  },
+  "LLMの構造化出力について説明してください。": {
+    "needs_review": false,
+    "must_include": [
+      "JSONスキーマ",
+      "Pydantic"
+    ]
+  },
+  "agent harnessについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ループ",
+      "ツール"
+    ]
+  },
+  "AIエージェントにおけるハーネスとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ループ",
+      "ツール"
+    ]
+  },
+  "Pi coding agentについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ターミナル",
+      "コーディングエージェント"
+    ]
+  },
+  "コーディングエージェントのPiとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ターミナル",
+      "コーディングエージェント"
+    ]
+  },
+  "pydantic-aiについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "フレームワーク",
+      "Pydantic"
+    ]
+  },
+  "Pydantic AIって何": {
+    "needs_review": false,
+    "must_include": [
+      "フレームワーク",
+      "Pydantic"
+    ]
+  },
+  "ADKについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "Google",
+      "フレームワーク"
+    ]
+  },
+  "GoogleのADKについて説明してください。": {
+    "needs_review": false,
+    "must_include": [
+      "Google",
+      "フレームワーク"
+    ]
+  },
+  "MCPについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "プロトコル",
+      "ツール"
+    ]
+  },
+  "MCPとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "プロトコル",
+      "ツール"
+    ]
+  },
+  "guardrailについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "制約",
+      "検査"
+    ]
+  },
+  "AIエージェントのガードレールとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "制約",
+      "検査"
+    ]
+  },
+  "HITLについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "人の確認",
+      "承認"
+    ]
+  },
+  "hitlとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "人の確認",
+      "承認"
+    ]
+  },
+  "テスト用モデルについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "偽モデル",
+      "LLM"
+    ]
+  },
+  "Pydantic AIのTestModelとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "偽モデル",
+      "LLM"
+    ]
+  },
+  "3レベルについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "基礎",
+      "実装",
+      "発展"
+    ]
+  },
+  "AIE2026の宿題の3レベルとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "基礎",
+      "実装",
+      "発展"
+    ]
+  },
+  "解答ファイルについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "answer.md",
+      "PR"
+    ]
+  },
+  "AIE2026におけるanswer.mdとは何のためのファイルですか？": {
+    "needs_review": false,
+    "must_include": [
+      "answer.md",
+      "PR"
+    ]
+  },
+  "開始タグについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "Gitタグ",
+      "ブランチ"
+    ]
+  },
+  "lecNN-startタグとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "Gitタグ",
+      "ブランチ"
+    ]
+  },
+  "デフォルトモデルについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ]
+  },
+  "AIE2026の既定モデルとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ]
+  },
+  "external toolについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "外部",
+      "MCP"
+    ]
+  },
+  "AIエージェントにおける外部ツールとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "外部",
+      "MCP"
+    ]
+  },
+  "MCP serverについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "ツール",
+      "クライアント"
+    ]
+  },
+  "MCPサーバーとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "ツール",
+      "クライアント"
+    ]
+  },
+  "MCP clientについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "サーバー",
+      "ツール"
+    ]
+  },
+  "MCPクライアントについて説明してください。": {
+    "needs_review": false,
+    "must_include": [
+      "サーバー",
+      "ツール"
+    ]
+  },
+  "stdioについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "stdio",
+      "Streamable HTTP"
+    ]
+  },
+  "MCPのトランスポートとは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "stdio",
+      "Streamable HTTP"
+    ]
+  },
+  "mcpServersについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "サーバー",
+      "設定ファイル"
+    ]
+  },
+  "mcpServers設定とはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "サーバー",
+      "設定ファイル"
+    ]
+  },
+  "ツール名のプレフィックスについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "接頭辞",
+      "ツール"
+    ]
+  },
+  "MCPにおけるツールの名前空間とは何ですか？": {
+    "needs_review": false,
+    "must_include": [
+      "接頭辞",
+      "ツール"
+    ]
+  },
+  "mcp-server-fetchについて教えてください": {
+    "needs_review": false,
+    "must_include": [
+      "URL",
+      "Markdown"
+    ]
+  },
+  "MCPのfetchサーバーとはどのようなものですか？": {
+    "needs_review": false,
+    "must_include": [
+      "URL",
+      "Markdown"
+    ]
+  },
+  "強化学習について教えてください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "BigBirdについて教えてください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "ロジスティック回帰とは何ですか": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "スケール則について平易な言葉で説明してください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "Omnicampusとは何ですか": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "ミュトスの開発元はどこですか？": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "第三回の宿題の提出期限はいつですか？": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "どうすればGitHubにログインできますか": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "Omniverseについて簡単に説明してください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "オフラインデータとは何ですか": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "RT-1について教えてください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "逆強化学習とはどのようなものですか": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "GANの仕組みを教えてください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "Anthropic": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "GPT5.5とは": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "ロボティクスの概要": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "RLVFについて教えてください": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "特徴量エンジニアリングとは？": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "RAGの仕組みを教えて": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  },
+  "推論の仕組みってどういうこと？": {
+    "needs_review": true,
+    "must_include": [
+      "確認"
+    ]
+  }
+}
